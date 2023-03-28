@@ -55,10 +55,6 @@ public class LinkedList<T extends Comparable<?>> implements Comparable<LinkedLis
         return size;
     }
 
-    public void sort() {
-        // Hier kann ein Sortieralgorithmus implementiert werden, z.B. Merge Sort, Bubble Sort, usw.
-        // Wichtig ist, dass der Sortieralgorithmus stabil ist.
-    }
 
     @Override
     public String toString() {
